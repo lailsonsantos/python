@@ -10,7 +10,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import confusion_matrix, accuracy_score
 from sklearn.tree import DecisionTreeClassifier
-import graphviz
 from sklearn.tree import export_graphviz
 
 credito = pd.read_csv('Dados/Credit.csv')
